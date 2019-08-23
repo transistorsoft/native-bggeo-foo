@@ -27,7 +27,7 @@ apply from: "${background_geolocation.projectDir}/app.gradle"
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    api fileTree(include: ['*.aar'], dir: 'libs') // <-- for tsfirebaseproxy.aar
+    api fileTree(include: ['*.aar'], dir: '../libs') // <-- for tsfirebaseproxy.aar
     implementation background_geolocation   // <-- for tslocationmanager
 
     implementation 'androidx.appcompat:appcompat:1.0.2'

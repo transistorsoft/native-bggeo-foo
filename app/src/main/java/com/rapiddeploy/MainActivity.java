@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         config.updateWithBuilder()
                 .setDebug(true)
                 .setLogLevel(5)
+                .setStopOnTerminate(false)
                 .commit();
 
         final BackgroundGeolocation bgGeo = BackgroundGeolocation.getInstance(getApplicationContext());

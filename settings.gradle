@@ -1,0 +1,4 @@
+include ':background-geolocation'
+project(':background-geolocation').projectDir = new File('libs/background-geolocation-lt-1.0.0/android/background-geolocation')
+
+include ':app'
